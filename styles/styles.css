@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   width: 1440px;
   margin: 0 auto;
@@ -112,6 +115,7 @@ body {
   width: 852px;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 40px;
 }
 /* card box-1 */
 .card-items .card-container1 {
