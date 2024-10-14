@@ -12,10 +12,13 @@ body {
 
 /* navbar styles area */
 #navbar {
+  width: 1140px;
   height: 90px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 36px;
 }
 #navbar h2 {
   color: rgb(13, 19, 33);
@@ -31,5 +34,45 @@ body {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
+  cursor: pointer;
+}
+/* banner styles area */
+#banner {
+  height: 650px;
+  background-image: url("../assets/images/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner .banner-content {
+  width: 998px;
+  text-align: center;
+}
+#banner .banner-content h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+#banner .banner-content p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+#banner .banner-content button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  border: none;
   cursor: pointer;
 }
