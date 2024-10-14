@@ -222,7 +222,7 @@ body {
   width: 1140px;
   height: 775px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 #inspiration .text-content {
   width: 852px;
@@ -247,4 +247,69 @@ body {
   height: 100%;
   border-radius: 16px;
   border: none;
+}
+/*target styles area */
+#current-target {
+  width: 1140px;
+  height: 475px;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+#current-target .text-content {
+  width: 946px;
+  height: 113px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#current-target .target-card {
+  display: flex;
+  gap: 24px;
+}
+.target-card .html {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.target-card .css {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.target-card .javascript {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.target-card .html img,
+.target-card .css img,
+.target-card .javascript img {
+  margin-bottom: 16px;
+}
+.target-card .html h2,
+.target-card .css h2,
+.target-card .javascript h2 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.target-card .html p,
+.target-card .css p,
+.target-card .javascript p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.target-card .html a,
+.target-card .css a,
+.target-card .javascript a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
 }
